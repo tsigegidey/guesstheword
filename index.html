@@ -6,14 +6,14 @@
   <body>
 
 <div class="header-img">
-<img id="header"src="https://media3.giphy.com/media/Mb4kwvfnWJNbDclpLV/giphy.gif" width="600" height="400" >
+<img id="header"src="https://c.tenor.com/vt5WEqKO8q4AAAAM/the-big-game-super-bowl-sunday.gif" width="600" height="400" >
   
 </div>
 
 <div class="wrapper">
    <h1> Guess the word </h1>
-    <h2> By: Tsige Gebretsadek, Bisma Baig, Mohammad Al-Shimari </h2>
-    <p>We have 3 different catagories Singers, U.S cities and Tv Shows</p>
+    
+    <p>We have 3 different categories Singers, U.S cities and Tv Shows</p>
         <p>it will be selected for you randomly. </p>
         <p> Let's see how much you know. </p>
         <span style='font-size:100px;'>&#129300;</span>
@@ -35,6 +35,10 @@
       <button id="hint">Hint</button>
       <button id="reset">Play again</button>
     </div>
+
+    <div class=authors>
+      <h4 class=authors> By: Tsige Gebretsadek, Bisma Baig, Mohammad Al-Shimari </h4>
+
 </div>
 
 
@@ -116,7 +120,7 @@ var selectCat = function () {
 
 // Show lives
  comments = function () {
-  showLives.innerHTML = "attempts left " + lives ;
+  showLives.innerHTML = "Attempts left " + lives ;
   if (lives < 1) {
     showLives.innerHTML = "Game Over!!";
   }

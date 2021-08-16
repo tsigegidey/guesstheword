@@ -136,7 +136,12 @@
         color:$base-color;
       }
   }
+   
+  .authors {
   
+    margin-top:40px;
+    
+  }
   @media (max-width: 767px) {
     #alphabet {
     padding:0 0 0 15px;
